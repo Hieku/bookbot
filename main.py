@@ -11,5 +11,9 @@ def count_words (text):
 
 def count_characters(text):
     lowered_text = text.lower()
+    from collections import Counter
+
+    all_characters = Counter(lowered_text)
+    return print(all_characters)
     
 count_characters(file_contents)
