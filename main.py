@@ -25,5 +25,5 @@ print("--- Begin report of books/frankenstein.txt ---")
 print(f"{word_counter} words founf in the document")
 print()
 for key, count in filtered.items():
-    print(f"The {key} character was found {count} times")
+    print(f"The '{key}' character was found {count} times")
 print("--- End report ---")
